@@ -22,16 +22,16 @@ Cấu hình trong file composer.json
 "require": 
 {
      ...,
-     "edupham/validator": "dev-master"
+     "edupham/validator": "dev-main",
 },
 ```
 sau đó chạy lệnh:
 ```
 composer install
 ```
-hoặc chạy lệnh:
+hoặc chạy lệnh sau mà không cần cấu hình:
 ```
-composer update
+composer require edupham/validator:dev-main
 ```
 
 ### III. Cách sử dụng
